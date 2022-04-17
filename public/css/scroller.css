@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-color: antiquewhite;
+}
+
+.container {
+  width: 50%;
+  background-color: aqua;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.generator {
+  width: 70%;
+  margin: auto;
+  padding: 2rem;
+}
+
+.scroller {
+  height: 300px;
+  width: 100%;
+  display: grid;
+  grid-auto-flow: column;
+  gap: 20px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  padding-left: 1rem;
+  margin: 1rem auto;
+}
+
+.card {
+  width: 200px;
+  height: 200px;
+  background-color: brown;
+  margin: 1rem 0;
+  padding: 1rem;
+}/*# sourceMappingURL=scroller.css.map */
